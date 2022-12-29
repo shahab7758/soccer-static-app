@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Julius Sans One';
+    src: url('JuliusSansOne-Regular.ttf')
+}
+
+html{
+    padding: 50px 80px 0px 80px;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+}
+ul{
+    background-color: #dcdcdc;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+p{
+    font-size: 40px;
+    width: 500px;
+}
+
+main{
+    padding: 20px;
+}
+.ssl1, .ssl2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    
+}
+img {
+    width: 40%;
+}
+
+
+
+/* Standings */
+
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+table{
+    border-spacing: 0;
+    width: 100%;
+}
+.team{
+    width: 80%;
+}
+
+
+/* footer */
+footer p{
+    width: auto;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dcdcdc;
+    height: 70px;
+    margin: 0%;
+}
+
+@media (width < 750px) {
+    html {
+        padding: 5px;
+    }
+
+    .header {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .logo {
+        padding: 0%;
+    }
+
+    ul {
+        flex-direction: column;
+        height: 150px;
+        padding: 0%;
+    }
+
+    .ssl1 {
+        flex-direction: column-reverse;
+    }
+
+    .ssl2 {
+        flex-direction: column;
+    }
+
+    p {
+        width: auto;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 20px;
+        height: 50px;
+    }
+}
